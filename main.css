@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: 'Chivo', sans-serif;
+}
+
+header h1 {
+    font-size: 40px;
+    color: #e78244;
+    padding: 50px;
+    text-align: center
+}
+
+header h1 b{
+    font-weight: bold;
+    font-size: 45px
+}
+
+section h2 {
+   font-size: 45px;
+    color: #2d4452;
+    padding-top: 20px
+}
+
+section {
+    text-align: center;
+    background-color: #38a18c
+}
+
+section .container {
+    display: flex;
+}
+
+section .container article {
+    padding: 20px 0;
+}
+
+section .container article img {
+    width: 80%;
+    padding: 0 40px
+}
+
+section .container article p {
+    font-size: 20px;
+    padding: 0 10px;
+    color: #fff
+}
+
+.button {
+    width: 100%;
+    text-align: center;
+    padding: 40px 0
+}
+
+button, a {
+    text-decoration: none;
+    margin: 20px;
+    padding: 20px 30px;
+    font-size:25px;
+    color: #fff;
+    border: solid 3px #4f4f4f;
+    border-radius: 20px;
+    background-color: #38a18c
+}
+
+
+
+
+footer {
+    background-color: #38a18c
+}
+
+footer p {
+    color: #fff;
+    padding: 10px;
+    text-align: center
+}
+
+
+/* ======================== */
+.input {
+    background-color: #406a80;
+    padding-top: 20px
+}
+
+.input form {
+    width: 450px;
+    padding: 20px 0px;
+}
+.input form legend {
+    color: #fff;
+    font-size: 18px;
+    padding: 0 5px
+}
+
+.input form p {
+    padding: 10px 0;
+    color: #fff;
+    font-size: 20px;
+    display: inline-flex;
+    width: 140px
+}
+
+section form input {
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 200px;
+    color: #4c5e69;
+}
+
+.text{
+    width: 100%;
+    text-align: center
+}
+
+.text p {
+    color: #f4f4f4;
+    padding: 50px;
+    font-size: 30px;
+    
+}
